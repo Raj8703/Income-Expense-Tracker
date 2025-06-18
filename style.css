@@ -1,0 +1,27 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+input, button {
+  padding: 10px;
+  margin: 5px;
+}
+
+#transactions {
+  margin-top: 20px;
+}
+
+.income {
+  color: green;
+}
+
+.expense {
+  color: red;
+}

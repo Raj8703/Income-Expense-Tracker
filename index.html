@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Simple Income & Expense Tracker</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h2>Income & Expense Tracker</h2>
+
+    <h3>Total Balance: ₹<span id="balance">0</span></h3>
+
+    <input type="text" id="desc" placeholder="Enter description" />
+    <input type="number" id="amount" placeholder="Enter amount" />
+    <button onclick="addTransaction()">Add</button>
+
+    <div id="transactions"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
